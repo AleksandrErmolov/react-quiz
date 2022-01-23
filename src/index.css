@@ -1,0 +1,56 @@
+body {
+  background: #7cc6fe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.app {
+  margin: 0 auto;
+  width: 450px;
+  min-height: 200px;
+  background-color: #252d4a;
+  padding: 20px;
+  box-shadow: 10px 10px 42px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: space-between;
+}
+
+.quiz {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.question {
+  width: 100%;
+}
+
+
+.answer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.button {
+  display: block;
+  color: white;
+  background-color: #252d4a;
+}
+
+
+
+.gg {
+  border: 4px green solid;
+  background-color: white;
+  color: black;
+}
+
+.zz {
+  border: 4px red solid
+}
